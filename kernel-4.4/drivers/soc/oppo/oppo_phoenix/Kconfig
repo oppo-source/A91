@@ -1,0 +1,7 @@
+# ifdef VENDOR_EDIT
+#//Kun.Hu@PSW.TECH 2018/11/15, Add phoenix base
+config PHOENIX_BASE
+bool "config phoenix base"
+help
+    Provide base functions for phoenix.
+#endif /* VENDOR_EDIT */

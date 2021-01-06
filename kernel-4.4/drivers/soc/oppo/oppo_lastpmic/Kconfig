@@ -1,0 +1,8 @@
+# ifdef VENDOR_EDIT
+#* wen.luo@PSW.BSP.kernel, 2019/6/25, Add for parsar powoff/powon */
+config OPPO_LAST_PMIC
+	bool "config oppo last pmic"
+	help
+	  define this config to parsar last poff reason.
+#endif /* VENDOR_EDIT */
+
